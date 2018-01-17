@@ -1,6 +1,6 @@
 title                : ABCs of Python
-description          : This is an automatically generated demo course which will help you on your way to create an awesome DataCamp course.
+description          : Welcome to a survey designed to test your knowledge of Python.  You will be asked a randomly chosen selection of questions, across a                     wide range of topics and skill levels.  The training programme will run this survey twice, once at the beginning of the programme and                    the other at the end.  Your responses the first time you complete the survey will help the trainers better tune the training materials                    , so we teach you what you need to learn and not what you already know.  After completing the survey the second time, you’ll be able                     to see how your ability in Python has improved over the training programme!   There are total xx questions in the survey.
 university           : DataCamp
 difficulty_level     : 2
-time_needed          : 1 hour
+time_needed          : 15 minutes
 programming_language : python
