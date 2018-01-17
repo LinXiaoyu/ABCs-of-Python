@@ -1,11 +1,11 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Intro to Python
+description : 
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+  slides_link : 
 
 ---
-## A really bad movie
+## Select the script that produces the output shown
 
 ```yaml
 type: MultipleChoiceExercise
@@ -15,29 +15,24 @@ skills: 1
 key: f73b9ded70
 ```
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
-
 `@instructions`
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- x = 8
+  y = 2
+  print(x ** y)
+- x = 8
+  y = 2
+  print(x ** y)
 
-`@hint`
-Have a look at the plot. Do you see a trend in the dots?
+
 
 `@pre_exercise_code`
 ```{python}
 # The pre exercise code runs code to initialize the user's workspace.
 # You can use it to load packages, initialize datasets and draw a plot in the viewer
 
-import pandas as pd
-import matplotlib.pyplot as plt
-
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-plt.scatter(movies.runtime, movies.rating)
-plt.show()
+x = 12
+y = 4
+print(x / y)
 ```
 
 `@sct`
@@ -46,7 +41,7 @@ plt.show()
 
 msg_bad = "That is not correct!"
 msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
+test_mc(1, [msg_success, msg_bad])
 ```
 
 ---
